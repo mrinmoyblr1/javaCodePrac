@@ -7,6 +7,7 @@ public class headlessChrome {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Mrinmoy\\Selenium_Driver\\chromedriver.exe"); 
 		ChromeOptions option=new ChromeOptions();
 		
+		//option.addArguments("--no-sandbox");
 		option.addArguments("--headless");		
 		//option.setHeadless(true);
 		
