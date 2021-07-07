@@ -1,6 +1,7 @@
 package interviewPrep;
 
 import java.util.ArrayList;
+
 //Sort an Array in ascending and descending order
 public class SortArray {
 	public static void main(String[] args) {
