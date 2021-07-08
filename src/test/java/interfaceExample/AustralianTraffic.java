@@ -5,7 +5,7 @@ public class AustralianTraffic implements CentralTraffic, ContinentalTraffic {
 		ob1.greenGo();
 		ob1.redStop();
 		ob1.flashingYellow();
-		System.out.println(ob1.a);
+		System.out.println(CentralTraffic.a);
 		AustralianTraffic ob2 = new AustralianTraffic();
 		ob2.WalkOnSignal();
 		ContinentalTraffic ct = new AustralianTraffic();
