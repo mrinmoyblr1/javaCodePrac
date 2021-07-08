@@ -1,4 +1,5 @@
 package interviewPrep;
+
 public class PrimeNumber {
 	public static void main(String[] args) {
 		// Prime Number

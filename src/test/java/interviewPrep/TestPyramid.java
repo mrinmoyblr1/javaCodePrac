@@ -1,6 +1,6 @@
 package interviewPrep;
 
-public class Testppiramid {
+public class TestPyramid {
 	public static void main(String[] args) {
 //		*
 //		* *

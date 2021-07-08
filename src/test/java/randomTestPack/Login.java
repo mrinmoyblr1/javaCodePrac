@@ -7,7 +7,7 @@ public class Login {
 	@Test
 	public void LoginTC() throws InterruptedException
 	{
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Mrinmoy\\Selenium_Driver\\chromedriver.exe"); 
+		System.setProperty("webdriver.chrome.driver", "/Users/Mrinmoy/Documents/Study_Materials/Eclipse_Projects/Selenium_Drivers/chromedriver"); 
 		WebDriver driver=new ChromeDriver();  
 		driver.navigate().to("https://www.facebook.com//");  
 		driver.manage().window().maximize(); 	
