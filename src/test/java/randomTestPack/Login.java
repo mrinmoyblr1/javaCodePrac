@@ -1,5 +1,7 @@
 package randomTestPack;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.devtools.browser.Browser;
@@ -13,6 +15,9 @@ public class Login {
 		WebDriver driver = new ChromeDriver();
 		driver.navigate().to("https://www.facebook.com//");
 		driver.manage().window().maximize();
+
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
 		LoginPageObjectEncapsulation rd = new LoginPageObjectEncapsulation(driver);
 		rd.EmailID().sendKeys("Hello");
 		rd.Password().sendKeys("Hello");
