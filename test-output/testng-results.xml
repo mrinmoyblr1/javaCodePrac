@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11586" started-at="2021-07-09T08:39:30 IST" finished-at="2021-07-09T08:39:41 IST">
+  <suite name="Default suite" duration-ms="11596" started-at="2021-07-09T09:39:36 IST" finished-at="2021-07-09T09:39:48 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11586" started-at="2021-07-09T08:39:30 IST" finished-at="2021-07-09T08:39:41 IST">
+    <test name="Default test" duration-ms="11596" started-at="2021-07-09T09:39:36 IST" finished-at="2021-07-09T09:39:48 IST">
       <class name="randomTestPack.Login">
-        <test-method status="PASS" signature="LoginTC()[pri:0, instance:randomTestPack.Login@29b5cd00]" name="LoginTC" duration-ms="11512" started-at="2021-07-09T08:39:30 IST" finished-at="2021-07-09T08:39:41 IST">
+        <test-method status="PASS" signature="LoginTC()[pri:0, instance:randomTestPack.Login@687080dc]" name="LoginTC" duration-ms="11556" started-at="2021-07-09T09:39:36 IST" finished-at="2021-07-09T09:39:48 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTC -->
