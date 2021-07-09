@@ -14,15 +14,17 @@ public class PropartiesFile {
 	{
 		// Reading values from Properties file
 		Properties prop=new Properties();
-		FileInputStream fis=new FileInputStream("C:\\Users\\Mrinmoy\\eclipse-workspace-2\\javaCodePrac\\src\\main\\java\\javaCodePrac\\config.properties");
+		FileInputStream fis=new FileInputStream("/Users/Mrinmoy/Documents/Study_Materials/Eclipse_Projects/javaCodePrac/src/main/java"
+				+ "/javaCodePrac/config.properties");
 		prop.load(fis);
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Mrinmoy\\Selenium_Driver\\chromedriver.exe"); 
+		System.setProperty("webdriver.chrome.driver", "/Users/Mrinmoy/Documents/Study_Materials/Eclipse_Projects/Selenium_Drivers/chromedriver"); 
 		WebDriver driver=new ChromeDriver();  
 		driver.manage().window().maximize();
 		driver.get(prop.getProperty("url"));		
 		
 		// Writing values to Properties file
-		FileOutputStream fos=new FileOutputStream("C:\\Users\\Mrinmoy\\eclipse-workspace-2\\javaCodePrac\\src\\main\\java\\javaCodePrac\\config.properties");
+		FileOutputStream fos=new FileOutputStream("/Users/Mrinmoy/Documents/Study_Materials/Eclipse_Projects/javaCodePrac/src/main/java"
+				+ "/javaCodePrac/config.properties");
 		String urlnm=driver.getTitle();
 		String newURL=driver.getCurrentUrl();
 		prop.setProperty("Title", urlnm);
